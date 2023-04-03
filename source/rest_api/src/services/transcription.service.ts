@@ -12,7 +12,7 @@ export class TranscriptionService {
   private transcriptionDTO: transcriptionDTO;
 
   constructor() {
-    this.transcriptionDTO = { transcription: '' };
+    this.transcriptionDTO = { transcription: '',categories:[]};
   }
 
   async getText(filePath: string) {
