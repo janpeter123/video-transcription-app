@@ -19,6 +19,24 @@ The scope of this project is to create an application capable of transcribing vi
 
 > **Note: The audio transcription API only processes videos that are 5 minutes or less**
 
+
+# 2. Application Architecture
+
+![Application Architecture](./documents/arquitetura.png)
+
+
+## 2.1 Architecture explanation
+
+`mDNSResponder` is the local DNS server responsible for translating the application url to an IP.
+
+Afterwards the `Front End React application` will send Youtube URL'S to the rest API.
+
+The `Rest API` will download the audio from the youtube video, then it will send to the `Watson Speech to Text API` and this API will extract the transcript from the audio file.
+
+The transcript will be sent to `Watson Natural Language Understanding` to get the main categories cited on the video.
+
+The video transcription and the categories identified by Watson Natural Language Understanding will be sent to the  `Front End React application`.
+
 # 2. Folder Structure
 
 ```
