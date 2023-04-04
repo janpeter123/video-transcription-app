@@ -1,0 +1,16 @@
+.searchbar{
+    width: 80%;
+}
+
+.searchbar button{
+    background-color:rgb(61, 61, 216);
+    color : #fff;
+}
+
+.searchbar button:hover{
+    background-color:rgba(61, 61, 216,0.7);
+}
+
+.searchbar button:active:focus{
+    background-color:rgba(61, 61, 216,0.7);
+}
