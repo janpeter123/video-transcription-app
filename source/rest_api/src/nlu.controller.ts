@@ -15,7 +15,6 @@ export class ClassifierController {
 
   @Post()
   async transcribeVideo(@Body() req: transcriptionDTO, @Res() res: Response) {
-
     const analysis = await this.classifierService.categorize(req.transcription)
     res.status(200).send(analysis);
     

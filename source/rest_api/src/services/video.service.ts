@@ -26,7 +26,6 @@ export class VideoService {
       //Get filename
       let filename = videoInfo.videoDetails.title;
       this.durationSeconds = parseInt(videoInfo.videoDetails.lengthSeconds);
-      console.log(videoInfo.videoDetails.lengthSeconds)
 
       if (this.durationSeconds <= this.timeLimit) {
         //Normalize filename

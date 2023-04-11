@@ -27,6 +27,7 @@
     "class-validator": "^0.14.0",
     "dotenv": "^16.0.3",
     "ibm-watson": "^7.1.2",
+    "morgan": "^1.10.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
     "youtube-dl-exec": "^2.4.0",
