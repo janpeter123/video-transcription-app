@@ -26,7 +26,9 @@ To run this application you should have the following dependencies on your machi
 # 1. Scope:
 The scope of this project is to create an application capable of transcribing videos from youtube and get the categories cited on the video.
 
-> **Note: The audio transcription API only processes videos that are 5 minutes or less**
+> **Note: 
+> - The audio transcription API only processes videos that are 5 minutes or less
+> - At the moment this application supports only videos in Portuguese**
 
 
 # 2. Application Architecture
