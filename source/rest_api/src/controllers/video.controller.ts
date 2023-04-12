@@ -1,7 +1,7 @@
-import { ClassifierService } from "./services/classifier.service";
-import { videoDTO } from "./dto/yt-video";
-import { TranscriptionService } from "./services/transcription.service";
-import { VideoService } from "./services/video.service";
+import { ClassifierService } from "../services/classifier.service";
+import { videoDTO } from "../dto/yt-video";
+import { TranscriptionService } from "../services/transcription.service";
+import { VideoService } from "../services/video.service";
 import { Body, Controller, Get, Post, Res } from "@nestjs/common";
 import { Response } from "express";
 import * as fs from "fs";

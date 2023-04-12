@@ -1,11 +1,11 @@
-import { transcriptionDTO } from './interfaces/transcription.interface';
-import { TranscriptionService } from './services/transcription.service';
-import { VideoService } from './services/video.service';
+import { transcriptionDTO } from '../interfaces/transcription.interface';
+import { TranscriptionService } from '../services/transcription.service';
+import { VideoService } from '../services/video.service';
 import { Body, Controller, Get, Post, Res } from '@nestjs/common';
 import { Response } from 'express';
 import * as fs from 'fs';
 import path from 'path';
-import { ClassifierService } from './services/classifier.service';
+import { ClassifierService } from '../services/classifier.service';
 
 @Controller('analyze')
 export class ClassifierController {
